@@ -1,0 +1,163 @@
+.leave-form {
+  max-width: 420px;
+  margin:  auto;
+  padding: 25px;
+  background-color: #dedee2;
+  border: 3px solid #684747;
+  border-radius: 4px;
+}
+.leave-form h2{
+  margin-top:10px;
+  text-align:center;
+}
+
+.leave-form label {
+ display: block;
+ 
+  font-weight:Bold;
+  margin-bottom: 9px;
+}
+
+.leave-form input[type="text"],
+.leave-form input[type="date"],
+.leave-form select {
+  width: 395px;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+.leave-form input[type="radio"],
+.leave-form input[type="file"] {
+  margin-right: 10px;
+}
+
+.leave-form button[type="submit"] {
+  background-color: #39516873;
+  color: rgb(124, 30, 30);
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.table-container table, th, td{
+ 
+  border:1px solid rgb(242,242, 242,1);
+  
+  
+}
+
+tbody td{
+  font-size: small;
+  text-align: center;
+}
+.table-container table{
+  width: 105rem;
+  border-collapse: collapse;
+}
+
+
+
+.table-container th,td {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.table-container th,tr {
+  background-color: #ddd8d8;
+  font-weight: bold;
+}
+
+.table-container tbody tr{
+  background-color: #ebe5e5;
+  width: 300px;
+}
+
+.table-container tbody tr:hover {
+  background-color: #ccc8c8;
+  width:300px;
+}
+.table-container button{
+  background-color: #39516873;
+  color: rgb(124, 30, 30);
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.bar-head{
+  padding-top: 0px;
+  padding-left: 280px;
+  color: rgb(66, 231, 190);
+}
+
+
+.tabular-container table{
+  width: 50rem;
+  border-collapse: collapse;
+}
+.tabular-container tbody tr:hover {
+  background-color: #c4b7b7;
+  width:300px;
+}
+.tabular-container th,td {
+  padding: 20px;
+  border: 2px bold #9e9393;
+}
+.tabular-container th{
+  background-color: #e7cccc;
+  font-weight: bold;
+}
+.tabular-container td{
+  
+  font-weight: bold;
+}
+.tabular-container table, th, td{
+ 
+  border:2px solid rgb(85, 80, 80);
+}
+.tabular-container {
+  padding-left: 30px;
+  padding-top: 40px;
+
+}
+.tabular-head{
+  padding-top: 0px;
+padding-left: 344px;
+color: rgb(87, 90, 84);
+}
+.bar-chart{
+  padding-left: 50px;
+  margin-bottom: 30px;
+}
+#main {
+ 
+  display: flex;
+  justify-content: center;
+
+}
+.divide{
+  padding-top: 0px;
+  padding-left: 104px;
+  
+}
+.piechart1{
+  padding-right: 95px;
+  padding-bottom: 8px;
+}
+.AI{
+  padding-top: 0px;
+padding-left: 114px;
+color: rgb(107, 107, 197);
+}
+.IT{
+  padding-top: 0px;
+  padding-left: 114px;
+  color: rgb(107, 107, 197);
+}
+.piechart2{
+  padding-right: 105px;
+  padding-bottom: 8px;
+}

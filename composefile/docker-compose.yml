@@ -1,0 +1,30 @@
+version: "3"
+services:
+  postgres:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: raju
+      POSTGRES_DB: emp
+    ports:
+      - 5050:5432
+  go-api:
+    image: projectbackend7
+    ports:
+      - 5757:4747
+    depends_on:
+      - postgres
+    environment:
+      DB_USER: postgres
+      DB_PASS: raju
+      DB_ADDR: 172.18.0.1:5050
+      DB_DATABASE: emp
+    links:
+      - postgres
+  react-app:
+    image: projectfrontend2
+    ports:
+      - 8080:3000
+    depends_on:
+      - go-api
